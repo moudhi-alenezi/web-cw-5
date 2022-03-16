@@ -19,3 +19,27 @@ if (total >= 30 && total <= 80) {
     console.log("you can not buy the gift")
 } 
 
+let grade = prompt("enter your grade")
+switch (true) {
+    case (grade >= 90 && grade <= 100): 
+        console.log("لقد حصلت على امتياز 🥳");
+        break;
+    case (grade >= 80 && grade <= 89):             
+        console.log("لقد حصلت على جيد جداً🤩");
+        break;
+    case (grade >= 70 && grade <= 79  ):
+        console.log("لقد حصلت على جيد🙂");
+        break;
+    case (grade >= 80 && grade <= 89 ):
+        console.log("لقد حصلت على جيد جداً🤩");
+        break;
+    case (grade >= 60 && grade <= 69 ):
+        console.log("لقد حصلت على مقبول😕");
+        break;
+    case (grade >= 50 && grade <= 59):
+        console.log("لقد حصلت على ضعيف☹️");
+        break;
+    case (grade <= 50 ):
+        console.log("راسب💔");
+        break;
+}
